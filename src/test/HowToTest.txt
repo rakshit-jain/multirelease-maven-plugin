@@ -1,0 +1,20 @@
+Steps to test multi release plugin 
+
+1.     Check out multirelease-maven-plugin project from codehaus
+
+2.     Unzip test project named multirelease located in src/test/resources.
+
+3.     Run mvn clean install on multirelease-maven- plugin project.
+
+4.     Add entry of plugin group ID i.e. org.codehaus.openxma.mojo in plugin group section of maven setting.xml.
+
+5.     Install nexus on your system.
+
+6.     Add SCM and repository information in test project i.e. multirelease.
+
+7.     Provide SCM username and password via property.
+
+8.     Repository username password can be added in settings.xml under the server tag. Repository ID in POM.xml and Server ID in settings.xml needs to be same.
+
+9.     Run command mvn multirelease:release
+
