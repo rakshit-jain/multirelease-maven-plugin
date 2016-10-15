@@ -4,4 +4,6 @@ and you want to release all projects when you change one of the projects than th
 Instead of updating dependency in each projects and releasing each of them individually you can use this plugin to
 automate the process.
 
-A sample multirelease project is also available which can guide you in setting up the plugin in your project
+A sample multirelease project is also available which can guide you in setting up the plugin in your project.
+
+https://github.com/rakshit-jain/multirelease
